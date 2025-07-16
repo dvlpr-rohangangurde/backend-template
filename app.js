@@ -10,7 +10,7 @@ app.use(express.json);
 app.use(express.urlencoded({ extended : true}));
 
 app.get("/", (req, res) => {
-    response(res, 200, "Hii from grampanchayat");
+    response(res, 200, "Hii from Rohan");
 })
 
 app.listen(process.env.PORT, () => {
